@@ -1,0 +1,126 @@
+body{
+    background: rgb(217, 216, 231);
+    animation: wechsel 20s infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes wechsel {
+    from {background-color: rgb(71, 103, 165);}
+    to {background-color: rgb(116, 115, 115);}
+  }
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.Topzeile {
+    background: rgb(180, 180, 219);
+    background: linear-gradient(300deg, rgb(10 10 20) 15%, rgba(9, 9, 121, 1) 35%, rgb(13, 8, 97) 90%);
+    height: 165px;
+    width: 100%;
+    min-width: fit-content;
+    min-width: 220px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: -10px;
+    position: relative;
+    display: flex;
+}
+
+p{
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    color: rgb(180, 180, 180);
+    font-size: 70px;
+    margin-top: 65px;
+    margin-left: 25px;
+}
+
+.Kachel1, .Kachel2, .Kachel3, .Kachel4, .Kachel5, .Kachel6 {
+    background: rgb(2,0,36);
+    height: 170px;
+    width: 20%;
+    min-width: 400px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative !important;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: block;
+}
+
+.Kachel1{
+    margin-top: 75px;
+}
+
+.Kachel2{
+    margin-top: 30px;
+}
+
+.Kachel3{
+    margin-top: -170px;
+    margin-left: 420px;
+}
+
+.Kachel4{
+    margin-top: -370px;
+    margin-left: 420px;
+}
+
+.Kachel5{
+    margin-top: -170px;
+    margin-left: 840px;
+}
+
+.Kachel6{
+    margin-top: 30px;
+    margin-left: 840px;
+}
+
+.Zahnrad{
+    width: 110px;
+    margin-top: 40px;
+    margin-left: -145px;
+    position: absolute;
+}
+
+.Service{
+    width: 110px;
+    margin-top: 40px;
+    margin-left: -175px;
+    position: absolute;
+}
+
+.Benutzer{
+    width: 110px;
+    margin-top: 40px;
+    margin-left: -195px;
+    position: absolute;
+}
+
+.Auffuellen{
+    width: 110px;
+    margin-top: 40px;
+    margin-left: -150px;
+    position: absolute;
+}
+
+.Status{
+    width: 110px;
+    margin-top: 40px;
+    margin-left: -145px;
+    position: absolute;
+}
+
+.Kassierung{
+    width: 110px;
+    margin-top: 40px;
+    margin-left: -130px;
+    position: absolute;
+}
